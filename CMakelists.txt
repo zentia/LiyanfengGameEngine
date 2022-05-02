@@ -1,0 +1,22 @@
+#project name
+PROJECT(GameEngine)
+# head file path
+INCLUDE_DIRECTORIES(
+
+)
+# source directory
+AUX_SOURCE_DIRECTORY(src DIR_SRCS)
+# set environment variable
+SET()
+# set extern libraries
+SET(LIBRARIES
+
+)
+# add executable file
+ADD_EXECUTEABLE()
+# add link library
+TARGET_LINK_LIBRARIES()
+
+SET(CMAKE_C_FLAGS_DEBUG "-g Wall")
+
+ADD_SUBDIRECTORY(Source)
